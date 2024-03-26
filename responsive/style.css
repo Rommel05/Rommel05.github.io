@@ -1,0 +1,325 @@
+/*página principal*/
+
+@media (max-width: 700px) {
+    #contenedor {
+        font-size: 0.8em;
+    }
+
+    #indice {
+        visibility: hidden;
+    }
+
+    #nav {
+        flex-direction: column; 
+        width: 100%;
+    }
+
+    #nav li {
+        flex: auto;
+    }
+
+
+}
+
+@media (max-width: 1184px) {
+    #indice {
+        visibility: hidden;
+    }
+}
+
+
+
+body {
+    background-image: url('./imagenes/mont2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#main {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgba(37, 37, 37, 0.932);
+}
+
+
+#indice {
+    list-style-type: none;
+    height: 10em;
+    width: 13em;
+    background: rgba(37, 37, 37, 0.932);
+    position: relative;
+    top: 16em;
+    margin-left: 5em;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+}
+
+#indice a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding-top: 1em;
+    text-align: left;
+}
+
+#indice a:hover {
+    color: black;
+}
+
+
+#tituloMain {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex; 
+}
+
+#nav li {
+    flex: 1; 
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1.5em 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav li a:hover {
+    background-color: #2b2b2b;
+}
+
+.titulo {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em;
+}
+
+.parrafo {
+    text-align: justify;
+    width: 80%;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#SitiosTuristicos {
+    padding-left: 1.5em;
+    font-family:'Times New Roman', Times, serif;
+    padding-right: 1.5em;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#equipo {
+    text-align: justify;
+    width: 80%;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.video {
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    display: block;
+}
+
+.img {
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    display: block;
+}
+
+audio {
+    width: 50%;
+    height:3em;
+    margin: auto;
+    display: block;
+}
+
+#volverPrincipio a:hover {
+    color: black;
+}
+
+#linkwiki {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#linkwiki:hover {
+    color: black;
+}
+
+#volverPrincipio {
+    text-align: center;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+#volverPrincipio a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#volverPrincipio a:hover {
+    color: black;
+}
+
+#rss {
+    float: right;
+    padding-right: 1em;
+}
+
+
+
+
+
+
+
+
+
+/*Agenda*/
+
+
+#tablaAgenda {
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloMes {
+    background-color: rgb(189, 182, 182, 0.774);
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: hidden;
+}
+
+.dias {
+    background-color:  rgba(189, 182, 182, 0.774);
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: hidden;
+}
+
+.celdas {
+    border-color:rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+}
+
+#mainAgenda {
+    background:rgba(37, 37, 37, 0.932);
+    width: 63%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+#tituloAgenda {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#agenda {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#volverAgenda{
+    position: relative;
+    top: 150px;
+}
+
+/*Formulario*/
+
+#tituloForm {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mainform {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgba(37, 37, 37, 0.932);
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+#parrafoForm {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#form {
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: rgb(187, 181, 181);
+    max-width: 470px;
+    border-radius: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+}
+
+.boton {
+    background-color: #95989b;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton:hover {
+    background-color: #acacac;
+}
+
+#volverForm {
+    position: relative;
+    top: 20px;
+}
